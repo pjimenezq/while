@@ -21,6 +21,26 @@ C--no-->Z(fin)
 
 ## Punto dos
 Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
+
+**Diagrama de flujo**
+
+```mermaid
+flowchart TD
+A(inicio)-->B[x=1]
+B-->C{x es menor o igual a 999 y el residuo de x/2 es distinto a 0?}
+C--sí-->D[x es impar]
+D-->E[Imprimir x]
+E-->F[x=x+2]
+F-->C
+C--no-->G[x=2]
+G-->H{x es menor o igual a 1000  y el residuo de x/2 es igual a 0?}
+H--sí-->I[x es par]
+I-->K[Imprimir x]
+K-->L[x=x+2]
+L-->H
+H--no-->M(fin)
+```
+
 ## Punto tres
 Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
 ## Punto cuatro
