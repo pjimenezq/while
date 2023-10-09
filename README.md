@@ -38,7 +38,7 @@ H--sí-->I[x es par]
 I-->K[Imprimir x]
 K-->L[x=x+2]
 L-->H
-H--no-->M(fin)
+H--no--->M(fin)
 ```
 
 ## Punto tres
