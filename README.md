@@ -16,7 +16,7 @@ C--sí-->D[Elevar x al cuadrado]
 D-->J[Imprimir x y x^2]
 J-->F[x=x+1]
 F-->C
-C--no----->Z(fin)
+C--no---->Z(fin)
 ```
 
 ## Punto dos
