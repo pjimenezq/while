@@ -51,7 +51,7 @@ flowchart TD
 A(Inicio)-->B[Número n entero]
 B-->C{n es mayor o igual a 2?}
 C--sí-->D{Residuo de n/2 es distinto a 0?}
-C--no-->E(Fin)
+C--no--->E(Fin)
 D--sí-->F[n=n-1]
 F-->G
 D--no-->G[Imprimir n]
