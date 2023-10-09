@@ -1,10 +1,11 @@
 # Reto 7: bucles
-**instrucciones**
+**Instrucciones**
 
 Desarrolle de manera individual la mayoría de ejercicios en clase. Para cada punto cree un programa individual asimismo cree un notebook con la solución a todos los problemas. Al finalizar suba todo a un repo y subalo al canal reto_7 en slack, los tres primeros puntos deben incluir diagrama de flujo.
 
 ## Punto uno
 Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado.
+
 **Diagrama de flujo**
 
 ```mermaid
